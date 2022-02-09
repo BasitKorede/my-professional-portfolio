@@ -13,6 +13,7 @@
 - Css 
 - positioning 
 - PSuedo Classes
+- Flexbox
  
 - Frameworks
 - Technologies used
