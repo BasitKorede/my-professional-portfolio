@@ -122,6 +122,13 @@ body {
   margin: 33px 0;
 }
 
+.social-media-ul {
+  width: 46%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .social-media-li {
   margin: 8px;
 }
