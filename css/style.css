@@ -1,1 +1,144 @@
+.body {
+  color: black;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+body {
+  background-color: #191765;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.ellipse-18 {
+  height: 242px;
+  width: 160px;
+  border-radius: 0;
+  top: 5px;
+  left: 0;
+  filter: blur(5px);
+}
+
+.ellipse-19 {
+  top: 293px;
+  right: 0;
+  width: 73px;
+  border-radius: 0;
+  filter: blur(3px);
+}
+
+.nav-bar {
+  margin-bottom: 120px;
+}
+
+.name-div,
+.toggle-button {
+  padding: 8px 16px;
+}
+
+.name-div {
+  font-size: 18px;
+}
+
+.bar {
+  transition: 0.4s;
+  background-color: #fff;
+  display: block;
+  height: 2px;
+  left: 28px;
+  top: 50%;
+  width: 20px;
+}
+
+.bar:first-child {
+  transform: translateY(-4px);
+}
+
+.bar:last-child {
+  transform: translateY(4px);
+}
+
+.main-page {
+  width: 330px;
+  margin: 0 auto;
+}
+
+.name-header {
+  color: #7d73fc;
+  font-size: 32px;
+}
+
+.about-me-header {
+  margin: 24px 0;
+  font-size: 18px;
+}
+
+.about-me-section {
+  margin: 34px 0;
+  text-align: center;
+  line-height: 28px;
+}
+
+.specialization-section {
+  border-top: 1px solid #646369;
+  border-bottom: 1px solid #646369;
+  padding: 33px 0;
+  margin-bottom: 8px;
+}
+
+.specialization-list {
+  flex-wrap: wrap;
+}
+
+.specialization-li {
+  flex-basis: 50%;
+  font-size: 80%;
+  color: #7d73fc;
+}
+
+.specialization-li-ul {
+  padding: 8% 0;
+  margin-bottom: 24px;
+  line-height: 2rem;
+}
+
+.social-media-div {
+  margin: 33px 0;
+}
+
+.social-media-li {
+  margin: 8px;
+}
+
+.social-media-image {
+  width: 17px;
+}
+
+.arrow-down {
+  height: 13px;
+  margin: 6px;
+}
+
+.work-paragraph {
+  font-size: 14px;
+  margin-top: 5px;
+}
