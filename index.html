@@ -4,13 +4,181 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Hello Microverse</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
-
-  <body>
-    <header>
-      
+  <body class="position-relative body">
+    <header class="display-flex nav-bar justify-content-space-between">
+      <div class="name-div">
+        <a href="#"> Basit Korede </a>
+      </div>
+      <nav>
+        <button type="button" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </nav>
     </header>
+    <main class="main-page">
+      <svg
+        class="ellipse-18 position-absolute"
+        viewBox="0 0 104 260"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g filter="url(#filter0_f)">
+          <circle cx="-26" cy="130" r="80" fill="#EDECFF" />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f"
+            x="-156"
+            y="0"
+            width="260"
+            height="260"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur" />
+          </filter>
+        </defs>
+      </svg>
+      <svg
+        class="ellipse-19 position-absolute"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g filter="url(#filter0_f)">
+          <circle cx="84" cy="84" r="34" fill="#EDECFF" />
+        </g>
+        <defs>
+          <filter
+            x="0"
+            y="0"
+            width="168"
+            height="168"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur" />
+          </filter>
+        </defs>
+      </svg>
+
+      <section class="about-me-section">
+        <h1 class="name-header">Basit Korede</h1>
+        <h2 class="about-me-header">Software Developer</h2>
+
+        <p>
+          I can help you build a product,feature or website look through some of
+          my work and experience! if you like what you see and have a project
+          you need coded, don't hesitate to contact me.
+        </p>
+      </section>
+      <section aria-label="specializations" class="specialization-section">
+        <ul
+          class="specialization-list display-flex justify-content-space-between"
+        >
+          <li class="specialization-li">
+            language
+            <ul class="specialization-li-ul">
+              <li>Javascript</li>
+              <li>Ruby</li>
+              <li>Html</li>
+              <li>Css</li>
+            </ul>
+          </li>
+          <li class="specialization-li">
+            frameworks
+            <ul class="specialization-li-ul">
+              <li>Bootstrap</li>
+              <li>Ruby on Rails</li>
+              <li>RSPec</li>
+              <li>CapyBara</li>
+              <li>Selenium</li>
+            </ul>
+          </li>
+          <li class="specialization-li">
+            skills
+            <ul class="specialization-li-ul">
+              <li>Codekit</li>
+              <li>Github</li>
+              <li>Codepen</li>
+              <li>Gitlab</li>
+              <li>Terminal</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <div class="social-media-div">
+        <ul class="social-media-ul display-flex justify-content-center">
+          <li class="social-media-li">
+            <a href="#"
+              ><img
+                src="./images/github-icon.png"
+                class="social-media-image"
+                alt="github icon"
+            /></a>
+          </li>
+
+          <li class="social-media-li">
+            <a href="#"
+              ><img
+                src="./images/linkdin.svg"
+                class="social-media-image"
+                alt="linkdin icon"
+            /></a>
+          </li>
+          <li class="social-media-li">
+            <a href="#"
+              ><img
+                src="./images/twitter.png"
+                class="social-media-image"
+                alt="twitter icon"
+            /></a>
+          </li>
+          <li class="social-media-li">
+            <a href="#"
+              ><img
+                src="./images/medium.png"
+                class="social-media-image"
+                alt="medium logo"
+            /></a>
+          </li>
+          <li class="social-media-li">
+            <a href="#"
+              ><img
+                src="./images/angels-list.png"
+                class="social-media-image"
+                alt="angels list icon"
+            /></a>
+          </li>
+        </ul>
+        <div class="display-flex justify-content-center">
+          <img
+            src="./images/arrow-down.png"
+            class="arrow-down"
+            alt="arrow down"
+          />
+          <p class="work-paragraph">Work</p>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
