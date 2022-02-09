@@ -1,13 +1,19 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# MY PROFESSIONAL PORTFOLIO
 
-> A basic hello microverse project to test our knowledege on the use of linters.
-
-
+> A portfolio project with comprise and test student knwoledge on HTML, Css, and Javascript. Also it servers as a personal portfolio  .
+ 
 ## Built With
 
 - HTML
+ - Semantic HTML
+ - HTML Forms
+
+- Css 
+- positioning 
+- PSuedo Classes
+ 
 - Frameworks
 - Technologies used
 
@@ -15,12 +21,10 @@
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
@@ -64,6 +68,7 @@ npx hint --telemetry=off .
 ```
 
 ## 👤 Author
+
 ### Setup
 
 ### Install
@@ -73,8 +78,6 @@ npx hint --telemetry=off .
 ### Run tests
 
 ### Deployment
-
-
 
 ## Authors
 
