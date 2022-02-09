@@ -2,19 +2,19 @@
 
 # MY PROFESSIONAL PORTFOLIO
 
-> A portfolio project with comprise and test student knwoledge on HTML, Css, and Javascript. Also it servers as a personal portfolio  .
- 
+> A portfolio project with comprise and test student knwoledge on HTML, Css, and Javascript. Also it servers as a personal portfolio .
+
 ## Built With
 
 - HTML
- - Semantic HTML
- - HTML Forms
+- Semantic HTML
+- HTML Forms
 
-- Css 
-- positioning 
+- Css
+- positioning
 - PSuedo Classes
 - Flexbox
- 
+
 - Frameworks
 - Technologies used
 
