@@ -60,13 +60,13 @@ body {
 .ellipse-22 {
   height: 220px;
   width: 235px;
-  top: 2652px;
+  top: 2811px;
   left: 0;
 }
 
 .ellipse-23 {
   width: 156.293323px;
-  top: 3361px;
+  top: 3548px;
   right: 0;
 }
 
@@ -199,9 +199,9 @@ body {
   grid-column-end: 3;
 }
 
-.recent-work-demo-wrapper {
+.recent-work-demo {
+  width: 100%;
   height: 236px;
-  background-color: #fff;
 }
 
 .recent-work-article {
