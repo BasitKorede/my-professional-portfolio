@@ -225,6 +225,8 @@ body {
 .recent-work-ul-li {
   border-right: 1px solid #555;
   padding-right: 24px;
+  float: left;
+  margin: 0 6%;
 }
 
 .see-project-button {
