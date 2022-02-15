@@ -259,11 +259,6 @@ body {
 .border-none {
   border: none;
 }
-h3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .contact-me-text {
   padding-top: 20px;
