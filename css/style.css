@@ -261,16 +261,18 @@ body {
 }
 
 .contact-me-text {
-  padding-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 40px;
 }
 
-.input {
-  width: 100%;
-  margin-top: 12px;
-  margin-bottom: 12px;
+.contact-me-header {
+  font: 500 32px/44px "Roboto", sans-serif;
+  color: #9390ff;
+}
+
+.text-align {
+  text-align: center;
 }
 
 .text-input {
@@ -281,6 +283,21 @@ textarea {
   height: 148px;
 }
 
-.form-button {
-  margin: 0 34%;
+input {
+  width: 100%;
+  margin: 15px 0;
+  padding: 10px;
+  font: 400 15px/24px "Roboto", sans-serif;
+  color: #191765;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid #9490ff;
+}
+
+.footer {
+  border-top: 1px solid #3a3837;
+  padding-top: 20px;
+  margin-top: 71px;
 }
