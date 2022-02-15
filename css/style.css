@@ -10,6 +10,14 @@ body {
   display: flex;
 }
 
+.margin-0-auto {
+  margin: 0 auto;
+}
+
+.flex-d-col {
+  flex-direction: column;
+}
+
 .justify-content-space-between {
   justify-content: space-between;
 }
@@ -251,15 +259,33 @@ body {
 .border-none {
   border: none;
 }
-h3{
+h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.contact-me-text{
+
+.contact-me-text {
   padding-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.input {
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.text-input {
+  height: 48px;
+}
+
+textarea {
+  height: 148px;
+}
+
+.form-button {
+  margin: 0 34%;
 }
