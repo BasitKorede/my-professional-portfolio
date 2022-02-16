@@ -1,0 +1,128 @@
+.display-flex-lg {
+  display: flex;
+}
+
+.display-none-lg {
+  display: none;
+}
+
+.display-block-lg {
+  display: block;
+}
+
+.margin-0auto-lg {
+  margin: 0 auto;
+}
+
+.nav-ul {
+  padding: 8px 16px;
+}
+
+.nav-ul-li {
+  margin: 0 8px;
+}
+
+.main-page {
+  width: 100%;
+}
+
+.about-me-section,
+.specialization-section {
+  width: 46%;
+  margin: 34px auto;
+}
+
+.about-me-paragraph {
+  margin: 34px;
+}
+
+.specialization-list {
+  flex-wrap: nowrap;
+}
+
+.social-media-div {
+  width: 80%;
+}
+
+.width-100-percent-lg {
+  width: 100%;
+}
+
+.circle-ellipse {
+  height: 184px;
+  width: 184px;
+  left: 69px;
+  top: 98px;
+  border-radius: 0;
+}
+
+.circle-ellipse-2 {
+  height: 216px;
+  width: 226px;
+  right: 69px;
+  top: 263px;
+}
+
+.ellipse-27-lg {
+  height: 402px;
+  width: 159px;
+  top: 1531.743103px;
+  right: 0;
+}
+
+.ellipse-20 {
+  top: 751px;
+  width: 372px;
+}
+
+.ellipse-21-lg {
+  height: 202px;
+  width: 338px;
+  left: -151px;
+  top: 1975px;
+}
+
+.ellipse-23 {
+  width: 156.293323px;
+  top: 2193px;
+  right: 0;
+}
+
+.my-recent-work {
+  grid-template-columns: repeat(2, 50%);
+}
+
+.recent-work-demo-wrapper,
+.recent-work-article {
+  width: 50%;
+  margin: 0 8px;
+}
+
+.recent-work-demo-wrapper {
+  height: 421px;
+}
+
+.recent-work-demo {
+  height: 356px;
+}
+
+.recent-work-div {
+  flex-direction: row;
+  margin: 16px 0;
+}
+
+.contact-me-section {
+  width: 60%;
+}
+
+.last-name {
+  margin-left: 4px;
+}
+
+.first-name {
+  margin-right: 4px;
+}
+
+.see-project-button-form {
+  width: 128px;
+}
