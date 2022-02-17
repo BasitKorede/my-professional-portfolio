@@ -234,14 +234,18 @@ body {
 .recent-work-ul-li {
   border-right: 1px solid #555;
   padding-right: 24px;
+  padding-bottom: 4px;
 }
 
 .see-project-button {
   width: 89px;
   height: 48px;
-  margin: 48px 0;
   background-color: #7d73fc;
   opacity: 1;
+}
+
+.form-button {
+  margin: 42px 0;
 }
 
 .see-project-button:enabled {
