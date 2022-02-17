@@ -10,6 +10,11 @@
   display: block;
 }
 
+.justify-content-lg {
+  justify-content: center;
+  align-items: center;
+}
+
 .margin-0auto-lg {
   margin: 0 auto;
 }
@@ -111,16 +116,30 @@
   margin: 16px 0;
 }
 
+.recent-work-ul {
+  justify-content: start;
+}
+
+.recent-work-ul-li {
+  margin: 16px;
+  padding-right: 8px;
+}
+
 .contact-me-section {
   width: 60%;
 }
 
 .last-name {
-  margin-left: 4px;
+  margin-left: 8px;
 }
 
 .first-name {
-  margin-right: 4px;
+  margin-right: 8px;
+}
+
+.first-name::placeholder{
+  color: #191765;
+  font-weight: bold;
 }
 
 .see-project-button-form {

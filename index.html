@@ -414,10 +414,10 @@
         <div class="display-flex justify-content-center">
           <img
             src="./images/arrow-down.png"
-            class="arrow-down"
+            class="arrow-down display-none-sm display-block-lg"
             alt="arrow down"
           />
-          <p class="work-paragraph">Work</p>
+          <p class="work-paragraph display-none-sm display-block-lg">Work</p>
         </div>
 
         <ul class="social-media-ul display-flex justify-content-center">
@@ -505,7 +505,7 @@
               aria-label="see project"
               class="see-project-button border-none"
             >
-              see projects
+              see project
             </button>
           </article>
         </div>
@@ -532,7 +532,7 @@
               aria-label="see project"
               class="see-project-button border-none"
             >
-              see projects
+              see project
             </button>
           </article>
 
@@ -564,7 +564,7 @@
               aria-label="see project"
               class="see-project-button border-none"
             >
-              see projects
+              see project
             </button>
           </article>
         </div>
@@ -598,7 +598,7 @@
               aria-label="see project"
               class="see-project-button border-none"
             >
-              see projects
+              see project
             </button>
           </article>
         </div>
@@ -625,7 +625,7 @@
               aria-label="see project"
               class="see-project-button border-none"
             >
-              see projects
+              see project
             </button>
           </article>
 
@@ -658,7 +658,7 @@
               aria-label="see project"
               class="see-project-button border-none"
             >
-              see projects
+              see project
             </button>
           </article>
         </div>
@@ -690,7 +690,7 @@
               type="text"
               name="name"
               id="firstname"
-              placeholder="First Name"
+              placeholder="Basit"
               maxlength="30"
               class="input first-name display-none-sm display-block-lg"
               required
@@ -721,16 +721,27 @@
             rows="7"
             placeholder="Enter your text"
             maxlength="500"
-            class="input"
+            class="input display-none-lg"
             required
           ></textarea>
+
+          <textarea
+          name="message"
+          id="enter-message"
+          cols="30"
+          rows="7"
+          placeholder="Enter your message here"
+          maxlength="500"
+          class="input display-none-sm display-block-lg"
+          required
+        ></textarea>
           <div class="form-button-div margin-0-auto">
             <button
               type="submit"
               aria-label="see project"
               class="see-project-button border-none display-none-lg"
             >
-              See Projects
+              See Project
             </button>
             <button
               type="submit"
@@ -744,7 +755,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer display-flex-lg justify-content-lg">
       <ul class="social-media-ul display-flex justify-content-center">
         <li class="social-media-li">
           <a
@@ -779,6 +790,7 @@
               alt="medium logo"
           /></a>
         </li>
+
         <li class="social-media-li">
           <a
             ><img
