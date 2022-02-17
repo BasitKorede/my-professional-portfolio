@@ -137,7 +137,7 @@
   margin-right: 8px;
 }
 
-.first-name::placeholder{
+.first-name::placeholder {
   color: #191765;
   font-weight: bold;
 }
