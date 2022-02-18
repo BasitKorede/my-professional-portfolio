@@ -248,6 +248,7 @@ body {
   opacity: 1;
 }
 
+
 .form-button {
   margin: 42px 0;
 }
@@ -257,7 +258,7 @@ body {
 }
 
 .see-project-button:hover {
-  background-color: #7d73fc;
+  background-color: red;
   opacity: 0.8;
 }
 
