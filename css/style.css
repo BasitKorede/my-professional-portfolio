@@ -95,6 +95,10 @@ body {
   font-size: 18px;
 }
 
+.name-div:hover {
+  transform: rotateX(45deg);
+}
+
 .bar {
   transition: 0.4s;
   background-color: #fff;
