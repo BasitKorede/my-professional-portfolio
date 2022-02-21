@@ -20,7 +20,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://deploy-preview-5--basitkorede-professional-portfolio.netlify.app/)
 
 ## Getting Started
 
