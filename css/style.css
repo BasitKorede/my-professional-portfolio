@@ -95,6 +95,10 @@ body {
   font-size: 18px;
 }
 
+.name-div:hover {
+  transform: rotateX(45deg);
+}
+
 .bar {
   transition: 0.4s;
   background-color: #fff;
@@ -254,7 +258,10 @@ body {
 
 .see-project-button:hover {
   background-color: #7d73fc;
+  width: 96px;
+  border-radius: 2px;
   opacity: 0.8;
+  transition: 0.5s;
 }
 
 .see-project-button:active {
