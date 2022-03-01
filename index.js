@@ -5,7 +5,7 @@ const bodyElement = document.querySelector('body');
 
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('display-none-sm');
-
+  bodyElement.style.overflow = 'hidden';
   toggleButton.classList.add('display-none-sm');
   menuButton.classList.toggle('display-none-sm');
   bodyElement.style.overflow = 'hidden';
@@ -13,7 +13,7 @@ toggleButton.addEventListener('click', () => {
 
 menuButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('display-none-sm');
-
+  bodyElement.style.overflow = 'auto';
   toggleButton.classList.toggle('display-none-sm');
   menuButton.classList.toggle('display-none-sm');
   bodyElement.style.overflow = 'auto';
@@ -21,4 +21,6 @@ menuButton.addEventListener('click', () => {
 
 navbarLinks.addEventListener('click', () => {
   navbarLinks.classList.toggle('display-none-sm');
+  toggleButton.classList.toggle('display-none-sm');
+  menuButton.classList.toggle('display-none-sm');
 });
