@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   background-color: #191765;
   position: relative;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .display-flex {
@@ -84,6 +84,13 @@ body {
 
 .nav-bar {
   margin-bottom: 120px;
+  width: 100%;
+  flex-direction: column;
+  color: #555;
+}
+
+.navigation-link {
+  width: 100%;
 }
 
 .name-div,
@@ -91,8 +98,23 @@ body {
   padding: 8px 16px;
 }
 
-.name-div {
-  font-size: 18px;
+.toggle-button {
+  position: absolute;
+  right: 0.72rem;
+  top: 0.4rem;
+  z-index: 2;
+  background-color: #191765;
+}
+
+.x-button {
+  position: absolute;
+  right: 0.72rem;
+  top: 0.4rem;
+  z-index: 2;
+  background-color: #191765;
+  font-size: 20px;
+  font-weight: normal;
+  margin-right: 24px;
 }
 
 .name-div:hover {
@@ -115,6 +137,33 @@ body {
 
 .bar:last-child {
   transform: translateY(4px);
+}
+
+.nav-ul {
+  flex-direction: column;
+  width: 100%;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  background-color: #191765;
+  top: 0;
+  height: 100vh;
+}
+
+.nav-ul-li {
+  margin: 54px 0;
+}
+
+.first-li-cresent {
+  right: 0;
+  bottom: -51px;
+  z-index: -1;
+}
+
+.second-li-cresent {
+  left: 0;
+  bottom: 96px;
+  z-index: -1;
 }
 
 .main-page {
@@ -246,6 +295,7 @@ body {
   height: 48px;
   background-color: #7d73fc;
   opacity: 1;
+  margin: 8px 0;
 }
 
 .form-button {
@@ -279,7 +329,7 @@ body {
 }
 
 .contact-me-header {
-  font: 500 32px/44px "Roboto", sans-serif;
+  font: 500 32px/44px 'Roboto', sans-serif;
   color: #9390ff;
 }
 
@@ -294,7 +344,7 @@ body {
 textarea {
   height: 148px;
   color: #555;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   padding: 6px;
 }
@@ -303,7 +353,7 @@ input {
   width: 100%;
   margin: 15px 0;
   padding: 10px;
-  font: 400 15px/24px "Roboto", sans-serif;
+  font: 400 15px/24px 'Roboto', sans-serif;
   color: #191765;
 }
 

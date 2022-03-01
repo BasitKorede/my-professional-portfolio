@@ -12,25 +12,65 @@
       <div class="name-div">
         <a href="#" class="name-anchor"> Basit Korede </a>
       </div>
-      <nav>
-        <button type="button" class="toggle-button display-none-lg">
+      <nav class="navigation-link">
+        <button
+          type="button"
+          class="toggle-button display-none-lg justify-content-space-between"
+          aria-label="toggle-button"
+        >
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
         </button>
+
+        <button class="x-button display-none-sm">
+          <span> &#10005;</span>
+        </button>
         <ul
-          class="nav-ul display-flex justify-content-space-between display-none-sm display-flex-lg"
+          class="nav-ul links-in-nav display-none-sm justify-content-space-between display-flex-lg"
         >
-          <li class="nav-ul-li"><a href=""> Portfolio</a></li>
-          <li class="nav-ul-li"><a href="">About</a></li>
-          <li class="nav-ul-li"><a href="">Contact </a></li>
-          <li class="nav-ul-li">
-            <a href=""><img src="./images/message.png" alt="messageicon" /></a>
+          <li
+            class="nav-ul-li display-flex display-flex justify-content-space-between"
+          >
+            <a href="" id="#portfolio"> Portfolio</a>
+            <img
+              src="./images/pointer.png"
+              alt="pointer"
+              class="display-none-lg"
+            />
           </li>
+          <li
+            class="nav-ul-li display-flex display-flex justify-content-space-between"
+          >
+            <a href="" id="#about-me-section">About</a>
+            <img
+              src="./images/pointer.png"
+              alt="pointer"
+              class="display-none-lg"
+            />
+          </li>
+          <li class="nav-ul-li display-flex justify-content-space-between">
+            <a href="#contact-section">Contact </a>
+            <img
+              src="./images/pointer.png"
+              alt="pointer"
+              class="display-none-lg"
+            />
+          </li>
+          <li class="nav-ul-li display-none-sm display-block-lg">
+            <a href=""> <img src="./images/message.png" alt="messageicon" /></a>
+          </li>
+          <li>
+         <img src="./images/first-elipse.svg"  class="position-absolute second-li-cresent display-none-lg" alt="page design">
+         </li>
+         <li>
+         <img src="./images/second-elipse.svg"  class="position-absolute first-li-cresent display-none-lg" alt="page design">
+         </li>
+         
         </ul>
       </nav>
     </header>
-    <main class="main-page">
+    <main class="main-page" id="Portfolio">
       <svg
         class="ellipse-18 position-absolute display-none-lg"
         viewBox="0 0 104 260"
@@ -663,7 +703,7 @@
           </article>
         </div>
       </section>
-      <section class="contact-me-section margin-0auto-lg">
+      <section class="contact-me-section margin-0auto-lg" id="contact-section">
         <h3 class="contact-me-header text-align">CONTACT US</h3>
         <p class="contact-me-text text-align">
           If you have an application you are interested in developing, a feature
@@ -802,5 +842,6 @@
       </ul>
       <div class="text-align">arigbabuodoytigfj@gmail.com</div>
     </footer>
+    <script src="index.js" defer></script>
   </body>
 </html>

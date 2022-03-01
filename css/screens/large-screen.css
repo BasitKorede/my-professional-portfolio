@@ -11,7 +11,7 @@
 }
 
 .justify-content-lg {
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -19,8 +19,19 @@
   margin: 0 auto;
 }
 
+.nav-bar {
+  flex-direction: row;
+}
+
+.navigation-link {
+  width: 50%;
+}
+
 .nav-ul {
+  height: auto;
   padding: 8px 16px;
+  flex-direction: row;
+  width: 50%;
 }
 
 .nav-ul-li {
