@@ -127,3 +127,71 @@ function implementProject() {
 
 const projectSkeleton = implementProject();
 workSection.innerHTML = projectSkeleton;
+function seeProectModal(projects) {
+  const populateProjectModal = (project) => `
+    <ul class="display-flex justify-content-space-between align-items">
+      <li><h3>${project.projectName}</h3></li>
+      <li>
+         <span class="close-modal-button"> &times;</span> 
+      </li>
+    </ul>
+    <div>
+      <img
+        src=${project.projectImage}
+        alt="Modal image"
+        class="recent-work-demo-modal"
+      />
+    </div>
+    <p class="about-project-paragraph text-align margin-0-auto">
+    ${project.projectFullDescription}
+    </p>
+
+    <ul class="recent-work-ul-modal display-flex justify-content-center">
+     ${callTechList(project.projectTechnologies)}
+    </ul>
+
+    <div
+      class="display-flex flex-d-col flex-d-row-lg margin-0-auto modal-button-div"
+    >
+      <button
+        type="submit"
+        aria-label="see project"
+        class="see-project-button border-none display-flex modal-container-button align-items justify-content-space-between"
+      >
+        <span> See Live </span>
+        <span>
+          <img src="./images/see-live-icon.png" alt="see live link image"
+        /></span>
+      </button>
+
+      <button
+        type="submit"
+        aria-label="see project"
+        class="see-project-button border-none display-flex modal-container-button align-items justify-content-space-between"
+      >
+        <span> See Source </span>
+        <span>
+          <img src="./images/github-icon.png" alt="github link image"
+        /></span>
+      </button>
+    </div>
+    `;
+  const handleSeeModal = (event) => {
+    const currentId = event.target.id;
+    const currentProject = projects.find((project) => project.id === currentId);
+    const modalElement = document.querySelector('.modal-container');
+    modalElement.innerHTML = populateProjectModal(currentProject);
+    modalElement.classList.remove('display-none-sm');
+    const closeModal = modalElement.querySelector('.close-modal-button');
+
+    closeModal.addEventListener('click', () => {
+      modalElement.classList.add('display-none-sm');
+    });
+  };
+
+  const allSeeProectButtons = document.querySelectorAll('.see-project-modal');
+  allSeeProectButtons.forEach((button) => {
+    button.addEventListener('click', handleSeeModal);
+  });
+}
+seeProectModal(projectData);
