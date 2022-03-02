@@ -10,6 +10,28 @@
   display: block;
 }
 
+.flex-d-row-lg {
+  flex-direction: row;
+}
+
+.modal-button-div {
+  justify-content: center;
+}
+
+.modal-container-button {
+  margin: 8px 14px;
+  width: 96px;
+  padding: 8px;
+}
+
+.modal-container {
+  margin: 14px;
+}
+
+.recent-work-demo-modal {
+  height: 323px;
+}
+
 .justify-content-lg {
   justify-content: space-between;
   align-items: center;
@@ -155,4 +177,8 @@
 
 .see-project-button-form {
   width: 128px;
+}
+
+.will-reverse {
+  flex-direction: row-reverse;
 }

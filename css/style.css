@@ -30,6 +30,15 @@ body {
   justify-content: center;
 }
 
+.align-items {
+  align-items: center;
+}
+
+.about-project-paragraph {
+  line-height: 27px;
+  width: 85%;
+}
+
 .position-relative {
   position: relative;
 }
@@ -284,6 +293,19 @@ body {
   flex-wrap: wrap;
 }
 
+.recent-work-ul-modal {
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.recent-work-ul-li-modal {
+  border-right: 1px solid #555;
+  padding-right: 24px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+  margin: 8px;
+}
+
 .recent-work-ul-li {
   border-right: 1px solid #555;
   padding-right: 24px;
@@ -296,6 +318,37 @@ body {
   background-color: #7d73fc;
   opacity: 1;
   margin: 8px 0;
+}
+
+.modal-container {
+  background-color: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(2px);
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 24px;
+  border: 1px solid #fff;
+  margin: 23px;
+  height: 1128px;
+}
+
+.close-modal-button {
+  font-size: 30px;
+  margin: 4px auto;
+  cursor: pointer;
+}
+
+.modal-container-button {
+  margin: 4px auto;
+  width: 96px;
+  padding: 8px;
+}
+
+.recent-work-demo-modal {
+  height: 236px;
+  width: 100%;
 }
 
 .form-button {
