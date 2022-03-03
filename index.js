@@ -89,11 +89,13 @@ function callTechList(technames) {
 }
 
 function implementProject() {
-  const addWillReverseClass = (index) => ((index % 2 === 0) ? '' : 'will-reverse');
+  const addWillReverseClass = (index) => (index % 2 === 0 ? '' : 'will-reverse');
   let innerHTML = '';
   for (let i = 0; i < projectData.length; i += 1) {
     const project = projectData[i];
-    innerHTML += `<div class="recent-work-div flex-d-col display-flex flex-d-row ${addWillReverseClass(i)}">
+    innerHTML += `<div class="recent-work-div flex-d-col display-flex flex-d-row ${addWillReverseClass(
+      i,
+    )}">
     <div class="recent-work-demo-wrapper">
       <img
         src='${project.projectImage}'
@@ -198,3 +200,21 @@ function seeProectModal(projects) {
   });
 }
 seeProectModal(projectData);
+
+// form validation
+function validateEmailInput() {
+  const emailInputField = document.querySelector('#email');
+
+  const handleEmailValidation = () => {
+    const errorMessage = document.querySelector('.error-message');
+    if (emailInputField.validity.valid) {
+      errorMessage.classList.add('display-none-sm');
+    } else {
+      errorMessage.classList.remove('display-none-sm');
+    }
+  };
+  emailInputField.addEventListener('input', handleEmailValidation);
+  document.querySelector('#contact-section button').addEventListener('click', handleEmailValidation);
+}
+
+validateEmailInput();
