@@ -539,33 +539,24 @@
           method="POST"
           class="display-flex flex-d-col justify-content-center"
         >
-          <div class="display-flex">
+          <div class="display-flex flex-d-col flex-d-row-lg">
             <input
               type="text"
-              name="name"
-              id="name"
-              placeholder="Text input"
-              maxlength="30"
-              class="input display-none-lg"
-              required
-            />
-            <input
-              type="text"
-              name="name"
+              name="firstname"
               id="firstname"
               placeholder="Basit"
               maxlength="30"
-              class="input first-name display-none-sm display-block-lg"
+              class="input first-name"
               required
             />
 
             <input
               type="text"
-              name="name"
+              name="lastname"
               id="lastname"
               placeholder="Last Name"
               maxlength="30"
-              class="input last-name display-none-sm display-block-lg"
+              class="input last-name"
               required
             />
           </div>
@@ -584,32 +575,15 @@
             rows="7"
             placeholder="Enter your text"
             maxlength="500"
-            class="input display-none-lg"
+            class="input"
             required
           ></textarea>
 
-          <textarea
-            name="message"
-            id="enter-message"
-            cols="30"
-            rows="7"
-            placeholder="Enter your message here"
-            maxlength="500"
-            class="input display-none-sm display-block-lg"
-            required
-          ></textarea>
           <div class="form-button-div margin-0-auto">
             <button
               type="submit"
               aria-label="see project"
-              class="see-project-button border-none display-none-lg form-button"
-            >
-              See Project
-            </button>
-            <button
-              type="submit"
-              aria-label="see project"
-              class="see-project-button see-project-button-form border-none display-none-sm display-block-lg form-button"
+              class="see-project-button see-project-button-form border-none form-button"
             >
               Send
             </button>
