@@ -89,12 +89,13 @@ function callTechList(technames) {
 }
 
 function implementProject() {
-  const addWillReverseClass = (index) => (index % 2 === 0 ? '' : 'will-reverse');
+  const addWillReverseClass = (index) =>
+    index % 2 === 0 ? '' : 'will-reverse';
   let innerHTML = '';
   for (let i = 0; i < projectData.length; i += 1) {
     const project = projectData[i];
     innerHTML += `<div class="recent-work-div flex-d-col display-flex flex-d-row ${addWillReverseClass(
-      i,
+      i
     )}">
     <div class="recent-work-demo-wrapper">
       <img
@@ -213,7 +214,10 @@ function validateEmailInput() {
       errorMessage.classList.remove('display-none-sm');
     }
   };
-  
+  emailInputField.addEventListener('input', handleEmailValidation);
+  document
+    .querySelector('#contact-section button')
+    .addEventListener('click', handleEmailValidation);
 }
 
 validateEmailInput();
