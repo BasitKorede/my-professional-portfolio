@@ -31,20 +31,20 @@ const projectData = [
   {
     id: '1001',
     sectionName: 'MY RECENT WORK',
-    projectName: 'MULTIPLE - POST STORIES',
+    projectName: 'MULTI - POST STORIES',
     projectImage: '../images/Snapshoot-portfolio.png',
     projectPosition: 'Front End Dev',
     projectDescription:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     projectFullDescription:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy textever since the 1500s, when an unknown printer took a galley of type',
-    projectTechnologies: ['html', 'css', 'JavaScript'],
+    projectTechnologies: ['html', 'css', 'JavaScript', 'Rails'],
   },
 
   {
     id: '1002',
     sectionName: 'MY RECENT WORK',
-    projectName: 'MULTIPLE - POST STORIES',
+    projectName: 'MULTI- POST STORIES',
     projectImage: '../images/Snapshoot-portfolio.png',
     projectPosition: 'Front End Dev',
     projectDescription:
@@ -57,26 +57,26 @@ const projectData = [
   {
     id: '1003',
     sectionName: 'MY RECENT WORK',
-    projectName: 'MULTIPLE - POST STORIES',
+    projectName: 'MULTI- POST STORIES',
     projectImage: '../images/Snapshoot-portfolio.png',
     projectPosition: 'Front End Dev',
     projectDescription:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     projectFullDescription:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy textever since the 1500s, when an unknown printer took a galley of type',
-    projectTechnologies: ['html', 'css', 'JavaScript', 'boostrap'],
+    projectTechnologies: ['html', 'css', 'JavaScript', 'react'],
   },
   {
     id: '1004',
     sectionName: 'MY RECENT WORK',
-    projectName: 'MULTIPLE - POST STORIES',
+    projectName: 'MULTI- POST STORIES',
     projectImage: './images/Snapshoot-portfolio.png',
     projectPosition: 'Front End Dev',
     projectDescription:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     projectFullDescription:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy textever since the 1500s, when an unknown printer took a galley of type',
-    projectTechnologies: ['html', 'css', 'JavaScript', 'ruby'],
+    projectTechnologies: ['html', 'css', 'JavaScript', 'laravel'],
   },
 ];
 
@@ -135,7 +135,7 @@ function seeProectModal(projects) {
          <span class="close-modal-button"> &times;</span> 
       </li>
     </ul>
-    <div>
+    <div class="modal-name">
       <img
         src=${project.projectImage}
         alt="Modal image"
@@ -146,7 +146,7 @@ function seeProectModal(projects) {
     ${project.projectFullDescription}
     </p>
 
-    <ul class="recent-work-ul-modal display-flex justify-content-center">
+    <ul class="recent-work-ul modal-ul display-flex justify-content-center">
      ${callTechList(project.projectTechnologies)}
     </ul>
 
@@ -180,12 +180,15 @@ function seeProectModal(projects) {
     const currentId = event.target.id;
     const currentProject = projects.find((project) => project.id === currentId);
     const modalElement = document.querySelector('.modal-container');
+    const modalBackground = document.querySelector('.modal-background');
     modalElement.innerHTML = populateProjectModal(currentProject);
     modalElement.classList.remove('display-none-sm');
+    modalBackground.classList.remove('display-none-sm');
     const closeModal = modalElement.querySelector('.close-modal-button');
 
     closeModal.addEventListener('click', () => {
       modalElement.classList.add('display-none-sm');
+      modalBackground.classList.add('display-none-sm');
     });
   };
 

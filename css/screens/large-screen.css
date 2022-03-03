@@ -182,3 +182,8 @@
 .will-reverse {
   flex-direction: row-reverse;
 }
+
+.modal-ul {
+  margin: 4px auto;
+  justify-content: center;
+}
