@@ -15,8 +15,11 @@
 - PSuedo Classes
 - Flexbox
 
-- Frameworks
-- Technologies used
+Javascrpit
++- Dom Manipulation and `EventListner` with handler functions
++- Named and anonymous arrow functions
++- Arrays and Object
++- Array manipulation with `for-loop`, `forEach`, `find`
 
 ## Live Demo (if available)
 
