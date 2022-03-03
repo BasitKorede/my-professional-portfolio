@@ -347,6 +347,11 @@ body {
   margin: 16px 0;
 }
 
+.error-message {
+  margin-top: 8px;
+  color: lightsalmon;
+}
+
 .close-modal-button {
   font-size: 30px;
   margin: 4px auto;

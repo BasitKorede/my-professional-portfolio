@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/index.css" />
     <title>MY PORTFOLIO</title>
   </head>
+
   <body class="position-relative body">
     <header class="display-flex nav-bar justify-content-space-between">
       <div class="name-div">
@@ -524,7 +525,8 @@
 
       <section class="my-recent-work-section">
         <h2 class="recent-work-header">MY RECENT WORK</h2>
-        <div class="my-recent-work" id="work-section"></div>gt 
+        <div class="my-recent-work" id="work-section"></div>
+        gt
       </section>
       <section class="contact-me-section margin-0auto-lg" id="contact-section">
         <h3 class="contact-me-header text-align">CONTACT US</h3>
@@ -565,6 +567,8 @@
             name="_replyto"
             id="email"
             placeholder="Enter your email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,10}$"
+            title="use lower case for your email"
             class="input text-input"
             required
           />
@@ -578,7 +582,9 @@
             class="input"
             required
           ></textarea>
-
+          <div class="error-message text-align display-none-sm">
+            Please enter your email in lower case
+          </div>
           <div class="form-button-div margin-0-auto">
             <button
               type="submit"
