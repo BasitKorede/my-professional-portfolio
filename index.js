@@ -213,7 +213,10 @@ function validateEmailInput() {
       errorMessage.classList.remove('display-none-sm');
     }
   };
-  
+  emailInputField.addEventListener('input', handleEmailValidation);
+  document
+    .querySelector('#contact-section button')
+    .addEventListener('click', handleEmailValidation);
 }
 
 validateEmailInput();
