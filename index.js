@@ -149,7 +149,7 @@ function seeProectModal(projects) {
     </p>
 
     <ul class="recent-work-ul modal-ul display-flex justify-content-center">
-     ${callTechList(project.projectTechnologies)}
+     ${callTechList(project.projectTechnologie)}
     </ul>
 
     <div
@@ -177,7 +177,7 @@ function seeProectModal(projects) {
         /></span>
       </button>
     </div>
-    `;
+    ;
   const handleSeeModal = (event) => {
     const currentId = event.target.id;
     const currentProject = projects.find((project) => project.id === currentId);
@@ -220,3 +220,32 @@ function validateEmailInput() {
 }
 
 validateEmailInput();
+
+const persistFormData = () => {
+  let store;
+  const rawFormData = localStorage.getItem('portfolioFormData');
+  if (rawFormData) {
+    store = JSON.parse(rawFormData);
+    console.log({ store });
+  } else {
+    store = {
+      message: '',
+      lastname: '',
+      firstname: '',
+      _replyto: '',
+    };
+  }
+
+  const handleFormData = (event) => {
+    const currentValue = event.target.value;
+    const currentName = event.target.name;
+    store[currentName] = currentValue;
+    const storeString = JSON.stringify(store);
+    localStorage.setItem('portfolioFormData', storeString);
+  };
+
+  document.querySelectorAll('form .input')
+    .forEach((input) => input.addEventListener('input', handleFormData));
+};
+
+persistFormData();
