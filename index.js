@@ -248,5 +248,6 @@ const persistFormData = () => {
       input.value = store[input.name];
       input.addEventListener('input', handleFormData);
     });
+  document.querySelector('form').addEventListener('submit', () => localStorage.removeItem('portfolioFormData'));
 };
 persistFormData();
