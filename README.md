@@ -16,10 +16,14 @@
 - Flexbox
 
 Javascrpit
-+- Dom Manipulation and `EventListner` with handler functions
-+- Named and anonymous arrow functions
-+- Arrays and Object
-+- Array manipulation with `for-loop`, `forEach`, `find`
+
+- Dom Manipulation and `EventListner` with handler functions
+- Named and anonymous arrow functions
+- Arrays and Object
+- Array manipulation with `for-loop`, `forEach`, `find`
+- Localstorage API
+- JSON.Parse
+- JSON.Stringify
 
 ## Live Demo (if available)
 
