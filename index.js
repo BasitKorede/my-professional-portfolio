@@ -226,7 +226,6 @@ const persistFormData = () => {
   const rawFormData = localStorage.getItem('portfolioFormData');
   if (rawFormData) {
     store = JSON.parse(rawFormData);
-    console.log({ store });
   } else {
     store = {
       message: '',
@@ -235,4 +234,19 @@ const persistFormData = () => {
       _replyto: '',
     };
   }
+
+  const handleFormData = (event) => {
+    const currentValue = event.target.value;
+    const currentName = event.target.name;
+    store[currentName] = currentValue;
+    const storeString = JSON.stringify(store);
+    localStorage.setItem('portfolioFormData', storeString);
+  };
+
+  document.querySelectorAll('form .input')
+    .forEach((input) => {
+      input.value = store[input.name];
+      input.addEventListener('input', handleFormData);
+    });
 };
+persistFormData();
