@@ -149,7 +149,7 @@ function seeProectModal(projects) {
     </p>
 
     <ul class="recent-work-ul modal-ul display-flex justify-content-center">
-     ${callTechList(project.projectTechnologies)}
+     ${callTechList(project.projectTechnologie)}
     </ul>
 
     <div
@@ -177,7 +177,7 @@ function seeProectModal(projects) {
         /></span>
       </button>
     </div>
-    `;
+    ;
   const handleSeeModal = (event) => {
     const currentId = event.target.id;
     const currentProject = projects.find((project) => project.id === currentId);
