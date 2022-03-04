@@ -235,17 +235,4 @@ const persistFormData = () => {
       _replyto: '',
     };
   }
-
-  const handleFormData = (event) => {
-    const currentValue = event.target.value;
-    const currentName = event.target.name;
-    store[currentName] = currentValue;
-    const storeString = JSON.stringify(store);
-    localStorage.setItem('portfolioFormData', storeString);
-  };
-
-  document.querySelectorAll('form .input')
-    .forEach((input) => input.addEventListener('input', handleFormData));
 };
-
-persistFormData();
