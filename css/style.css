@@ -4,6 +4,7 @@ body {
   background-color: #191765;
   position: relative;
   font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
 }
 
 .display-flex {
