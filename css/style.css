@@ -23,6 +23,13 @@ body {
   flex-direction: column;
 }
 
+.position-fixed,
+.nav-ul,
+.modal-background,
+.modal-container {
+  position: fixed;
+}
+
 .justify-content-space-between {
   justify-content: space-between;
 }
@@ -31,7 +38,8 @@ body {
   justify-content: center;
 }
 
-.align-items {
+.align-items,
+.social-media-ul {
   align-items: center;
 }
 
@@ -102,12 +110,15 @@ body {
 
 .nav-bar {
   margin-bottom: 120px;
-  width: 100%;
   flex-direction: column;
   color: #555;
 }
 
-.navigation-link {
+.navigation-link,
+.modal-background,
+.recent-work-demo,
+input,
+.nav-bar {
   width: 100%;
 }
 
@@ -116,7 +127,8 @@ body {
   padding: 8px 16px;
 }
 
-.toggle-button {
+.toggle-button,
+.x-button {
   position: absolute;
   right: 0.72rem;
   top: 0.4rem;
@@ -125,11 +137,6 @@ body {
 }
 
 .x-button {
-  position: absolute;
-  right: 0.72rem;
-  top: 0.4rem;
-  z-index: 2;
-  background-color: #191765;
   font-size: 20px;
   font-weight: normal;
   margin-right: 24px;
@@ -161,7 +168,6 @@ body {
   flex-direction: column;
   width: 100%;
   padding: 16px;
-  position: fixed;
   z-index: 1;
   background-color: #191765;
   top: 0;
@@ -201,7 +207,6 @@ body {
 
 .about-me-section {
   margin: 34px 0;
-  text-align: center;
   line-height: 28px;
 }
 
@@ -210,10 +215,6 @@ body {
   border-bottom: 1px solid #646369;
   padding: 33px 0;
   margin-bottom: 8px;
-}
-
-.specialization-list {
-  flex-wrap: wrap;
 }
 
 .specialization-li {
@@ -230,10 +231,6 @@ body {
 
 .social-media-div {
   margin: 33px 0;
-}
-
-.social-media-ul {
-  align-items: center;
 }
 
 .social-media-li {
@@ -280,7 +277,6 @@ body {
 }
 
 .recent-work-demo {
-  width: 100%;
   height: 236px;
 }
 
@@ -298,12 +294,13 @@ body {
   line-height: 1.7rem;
 }
 
-.recent-work-ul {
+.recent-work-ul,
+.recent-work-ul-modal,
+.specialization-list {
   flex-wrap: wrap;
 }
 
 .recent-work-ul-modal {
-  flex-wrap: wrap;
   margin: auto;
 }
 
@@ -323,9 +320,7 @@ body {
 }
 
 .modal-background {
-  width: 100%;
   padding: 16px;
-  position: fixed;
   z-index: 1;
   background-color: #191765;
   top: 0;
@@ -335,7 +330,6 @@ body {
 .modal-container {
   background-color: rgba(255, 255, 255, 0.16);
   backdrop-filter: blur(2px);
-  position: fixed;
   z-index: 5;
   top: 0;
   padding: 24px;
@@ -405,7 +399,8 @@ body {
   color: #9390ff;
 }
 
-.text-align {
+.text-align,
+.about-me-section {
   text-align: center;
 }
 
@@ -422,7 +417,6 @@ textarea {
 }
 
 input {
-  width: 100%;
   margin: 15px 0;
   padding: 10px;
   font: 400 15px/24px 'Roboto', sans-serif;
