@@ -27,7 +27,7 @@ Javascrpit
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://deploy-preview-5--basitkorede-professional-portfolio.netlify.app/)
+[Live Demo Link](https://deploy-preview-15--basitkorede-professional-portfolio.netlify.app/)
 
 ## Getting Started
 
@@ -95,13 +95,9 @@ npx hint --telemetry=off .
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/basit-korede/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
 ## 🤝 Contributing
+
+- @Yazino12
 
 Contributions, issues, and feature requests are welcome!
 
@@ -113,9 +109,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse 
 
 ## 📝 License
 
