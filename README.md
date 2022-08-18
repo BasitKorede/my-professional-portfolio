@@ -9,6 +9,7 @@
 - HTML
 - Semantic HTML
 - HTML Forms
+- Buttons
 
 - Css
 - positioning
@@ -27,7 +28,7 @@ Javascrpit
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://deploy-preview-15--basitkorede-professional-portfolio.netlify.app/)
+[Live Demo Link](https://deploy-preview-16--basitkorede-professional-portfolio.netlify.app/)
 
 ## Getting Started
 
