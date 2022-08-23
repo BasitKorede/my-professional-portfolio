@@ -9,7 +9,6 @@
 - HTML
 - Semantic HTML
 - HTML Forms
-- Buttons
 
 - Css
 - positioning
