@@ -28,7 +28,7 @@ Javascrpit
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://deploy-preview-16--basitkorede-professional-portfolio.netlify.app/)
+[Live Demo Link](https://basitkorede-professional-portfolio.netlify.app/)
 
 ## Getting Started
 
