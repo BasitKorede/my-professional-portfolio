@@ -76,11 +76,11 @@ npx hint --telemetry=off .
 ```
 
 
-👤 **Author**
+👤 **BASIT KOREDE**
 
-- GitHub: (https://github.com/BasitKorede)
-- Twitter:(https://twitter.com/twitterhandle)
-- LinkedIn:(https://www.linkedin.com/in/basit-korede/)
+- GitHub: [BasitKorede](https://github.com/BasitKorede)
+- Twitter: [Basit_Korede2](https://twitter.com/basit_korede2)
+- LinkedIn: [Basit-Korede](https://www.linkedin.com/in/basit-korede/)
 
 ## 🤝 Contributing
 
