@@ -75,25 +75,12 @@ You can also check against Webhint:
 npx hint --telemetry=off .
 ```
 
-## 👤 Author
 
-### Setup
+👤 **Author**
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/BasitKorede)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/basit-korede/)
+- GitHub: (https://github.com/BasitKorede)
+- Twitter:(https://twitter.com/twitterhandle)
+- LinkedIn:(https://www.linkedin.com/in/basit-korede/)
 
 ## 🤝 Contributing
 
